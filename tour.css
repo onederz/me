@@ -631,9 +631,8 @@ h1 {
 .border-float {
     position: relative;
     float: right;
-    width: 650px;
+    width: 45%;
     height: 600px;
-    margin-right: 1%;
 }
 .carousel {
     width: 100%;
