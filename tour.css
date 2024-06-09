@@ -752,13 +752,13 @@ h1 {
     background-color: #04040400;
 }
 .top-bus {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 .li-bus {
     color: rgb(255, 255, 255);
     padding-left: 10px;
     text-align: left;
-    padding-bottom: 34.5px;
+    padding-bottom: 40.5px;
     font-size: 15px;
 }
 a {
@@ -817,13 +817,13 @@ a {
     background-color: #04040400;
 }
 .top-tour {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .li-tour {
     color: rgb(255, 255, 255);
     padding-left: 10px;
     text-align: left;
-    padding-bottom: 40.4px;
+    padding-bottom: 48.4px;
     font-size: 15px;
 }
 #phnompenh,
