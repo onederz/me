@@ -785,7 +785,7 @@ a {
     left: 0;
 }
 .bus-icon {
-    left: 36%;
+    left: 35.5%;
     bottom: 5px;
     position: absolute;
     width: 30px;
@@ -817,13 +817,13 @@ a {
     background-color: #04040400;
 }
 .top-tour {
-    padding-top: 30px;
+    padding-top: 27px;
 }
 .li-tour {
     color: rgb(255, 255, 255);
     padding-left: 10px;
     text-align: left;
-    padding-bottom: 48.4px;
+    padding-bottom: 45px;
     font-size: 15px;
 }
 #phnompenh,
