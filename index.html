@@ -1331,8 +1331,6 @@
                   </tr>
                 </table>
             </section>
-            <button class="fullscreen" onclick="openFullscreen();"><p class="btn-open-top">˹ ˺</p><p class="btn-open-bottom">˻ ˼</p></button>
-            <button class="unfullscreen" onclick="closeFullscreen();"><p class="btn-close-top">˼ ˻</p><p class="btn-close-bottom">˺ ˹</p></button>
     </section>
 </div>
 </div>
@@ -1341,28 +1339,6 @@
     e.preventDefault();
     $(this).toggleClass('flipped');
 })
-
-// Using JavaScript to open the page in fullscreen mode
-var elem = document.documentElement;
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
-}
-
-function closeFullscreen() {
-  if (document.exitFullscreen) {
-    document.exitFullscreen();
-  } else if (document.webkitExitFullscreen) { /* Safari */
-    document.webkitExitFullscreen();
-  } else if (document.msExitFullscreen) { /* IE11 */
-    document.msExitFullscreen();
-  }
-}
 </script>
 </body>
 </html>
